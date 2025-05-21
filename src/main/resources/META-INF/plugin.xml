@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>org.maravill.SpringBootBannerGenerator</id>
+    <name>Spring Boot Banner Generator</name>
+    <vendor email="eduardomaravilladev@hotmail.com" url="https://eduardo-maravilla.netlify.app/">Eduardo Maravilla</vendor>
+
+    <description><![CDATA[
+        <p><strong>Spring Boot Banner Generator</strong></p>
+        <p>A simple IntelliJ plugin to generate ASCII art banners for your Spring Boot projects.</p>
+        <ul>
+          <li>Right-click on a folder</li>
+          <li>Select <em>New → Generate Spring Boot Banner</em></li>
+          <li>Enter text and choose a font</li>
+          <li>A <code>banner.txt</code> file will be created with your selected style</li>
+        </ul>
+        <p>🔗 <a href="https://github.com/EduardoMaravilla/SpringBootBannerPlugin">View Source on GitHub</a></p>
+        <p>🎨 Icon by <a href="https://icons8.com/icon/UCgJoZGoeBg1/sublime-text-new-logo" target="_blank">Icons8</a></p>
+        <p>🛠️ ASCII banners generated using <a href="https://github.com/lalyos/jfiglet" target="_blank">jfiglet</a></p>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij"/>
+
+    <actions>
+        <action id="org.maravill.springbootbannergenerator.GenerateBannerAction"
+                class="org.maravill.springbootbannergenerator.action.GenerateBannerAction"
+                text="Generate Spring Boot Banner"
+                description="Genera un archivo banner.txt con texto ASCII art"
+                icon="/icons/bannerIcon.svg">
+            <add-to-group group-id="NewGroup" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
