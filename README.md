@@ -49,20 +49,21 @@ A simple yet powerful IntelliJ IDEA plugin to generate ASCII art banners for you
    - Select the generated `.zip` file from the `build/distributions` directory.
 ## 🛠️ Built With
 
-- [IntelliJ Platform Plugin SDK](https://plugins.jetbrains.com/docs/intellij/welcome.html)
-- [jfiglet](https://github.com/lalyos/jfiglet) for ASCII art generation
+- <a href="https://plugins.jetbrains.com/docs/intellij/welcome.html" target="_blank">IntelliJ Platform Plugin SDK</a>
+- <a href="https://github.com/lalyos/jfiglet" target="_blank">jfiglet</a> for ASCII art generation
 - Kotlin & Java
 - IntelliJ Plugin Gradle Plugin
 
 ## 🎨 Icon Credits
 
-Icon from [Icons8 - Sublime Text New Logo](https://icons8.com/icon/UCgJoZGoeBg1/sublime-text-new-logo)
+Icon from <a href="https://icons8.com/icon/UCgJoZGoeBg1/sublime-text-new-logo" target="_blank">Icons8 - Sublime Text New Logo</a>
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the <a href="LICENSE" target="_blank">LICENSE</a> file for details.
 
 ---
 
-Made with ❤️ by [Eduardo Maravilla](https://eduardo-maravilla.netlify.app/)
+Made with ❤️ by <a href="https://eduardo-maravilla.netlify.app/" target="_blank">Eduardo Maravilla</a>
+
    
