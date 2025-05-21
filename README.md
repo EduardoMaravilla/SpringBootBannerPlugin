@@ -47,6 +47,8 @@ A simple yet powerful IntelliJ IDEA plugin to generate ASCII art banners for you
 4. Install theplugin:
    - Go to `File → Settings → Plugins → Install Plugin from Disk...`
    - Select the generated `.zip` file from the `build/distributions` directory.
+
+
 ## 🛠️ Built With
 
 - <a href="https://plugins.jetbrains.com/docs/intellij/welcome.html" target="_blank">IntelliJ Platform Plugin SDK</a>
