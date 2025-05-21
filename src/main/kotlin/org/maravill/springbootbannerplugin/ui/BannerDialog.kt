@@ -1,4 +1,4 @@
-package org.maravill.springbootbannergenerator.ui
+package org.maravill.springbootbannerplugin.ui
 
 import com.github.lalyos.jfiglet.FigletFont
 import com.intellij.openapi.project.Project
@@ -6,7 +6,7 @@ import com.intellij.openapi.ui.ComboBox
 import com.intellij.openapi.ui.DialogWrapper
 import com.intellij.ui.JBColor
 import com.intellij.util.ui.JBUI
-import org.maravill.springbootbannergenerator.fonts.FontConstant
+import org.maravill.springbootbannerplugin.fonts.FontConstant
 import java.awt.*
 import javax.swing.*
 import javax.swing.border.CompoundBorder
@@ -23,7 +23,7 @@ class BannerDialog(project: Project?) : DialogWrapper(project) {
     private val fontFilterField = JTextArea(1, 80)
 
     init {
-        title = "Spring Boot Banner Generator"
+        title = "Spring Boot Banner Plugin"
         init()
         isResizable = true
         setupStyle()

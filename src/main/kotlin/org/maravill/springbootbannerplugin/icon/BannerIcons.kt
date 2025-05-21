@@ -1,4 +1,4 @@
-package org.maravill.springbootbannergenerator.icon
+package org.maravill.springbootbannerplugin.icon
 
 import com.intellij.openapi.util.IconLoader
 import javax.swing.Icon

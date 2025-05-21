@@ -1,1 +1,1 @@
-rootProject.name = "SpringBootBannerGenerator"
+rootProject.name = "SpringBootBannerPlugin"

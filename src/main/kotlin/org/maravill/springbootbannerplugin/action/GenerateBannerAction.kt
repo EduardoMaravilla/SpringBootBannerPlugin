@@ -1,4 +1,4 @@
-package org.maravill.springbootbannergenerator.action
+package org.maravill.springbootbannerplugin.action
 
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
@@ -7,7 +7,7 @@ import com.intellij.openapi.command.WriteCommandAction
 import com.intellij.openapi.roots.ModuleRootManager
 import com.intellij.openapi.ui.Messages
 import com.intellij.openapi.vfs.LocalFileSystem
-import org.maravill.springbootbannergenerator.ui.BannerDialog
+import org.maravill.springbootbannerplugin.ui.BannerDialog
 import java.io.File
 import java.io.OutputStreamWriter
 

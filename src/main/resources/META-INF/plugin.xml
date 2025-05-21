@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>org.maravill.SpringBootBannerGenerator</id>
-    <name>Spring Boot Banner Generator</name>
+    <id>org.maravilla.SpringBootBannerPlugin</id>
+    <name>Spring Boot Banner</name>
     <vendor email="eduardomaravilladev@hotmail.com" url="https://eduardo-maravilla.netlify.app/">Eduardo Maravilla</vendor>
 
     <description><![CDATA[
@@ -22,8 +22,8 @@
     <extensions defaultExtensionNs="com.intellij"/>
 
     <actions>
-        <action id="org.maravill.springbootbannergenerator.GenerateBannerAction"
-                class="org.maravill.springbootbannergenerator.action.GenerateBannerAction"
+        <action id="org.maravill.springbootbannerplugin.GenerateBannerAction"
+                class="org.maravill.springbootbannerplugin.action.GenerateBannerAction"
                 text="Generate Spring Boot Banner"
                 description="Genera un archivo banner.txt con texto ASCII art"
                 icon="/icons/bannerIcon.svg">

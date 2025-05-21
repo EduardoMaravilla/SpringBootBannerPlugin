@@ -1,4 +1,4 @@
-package org.maravill.springbootbannergenerator.fonts
+package org.maravill.springbootbannerplugin.fonts
 
 object FontConstant {
     const val FONT_FOLDER_LOCATION = "fonts"

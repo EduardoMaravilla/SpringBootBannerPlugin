@@ -4,7 +4,7 @@ A simple yet powerful IntelliJ IDEA plugin to generate ASCII art banners for you
 
 ## 📌 Plugin ID
 
-`org.maravill.SpringBootBannerGenerator`
+`org.maravill.SpringBootBannerPlugin`
 
 ## ✨ Features
 
