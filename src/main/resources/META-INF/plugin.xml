@@ -7,7 +7,7 @@
         <p><strong>Spring Boot Banner Generator</strong></p>
         <p>A simple IntelliJ plugin to generate ASCII art banners for your Spring Boot projects.</p>
         <ul>
-          <li>Right-click on a folder</li>
+          <li>Right-click from <strong>src</strong> folder of the project or module</li>
           <li>Select <em>New → Generate Spring Boot Banner</em></li>
           <li>Enter text and choose a font</li>
           <li>A <code>banner.txt</code> file will be created with your selected style</li>
@@ -30,4 +30,5 @@
             <add-to-group group-id="NewGroup" anchor="last"/>
         </action>
     </actions>
+
 </idea-plugin>

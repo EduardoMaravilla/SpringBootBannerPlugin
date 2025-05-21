@@ -25,7 +25,7 @@ class GenerateBannerAction : AnAction("Generate Spring Boot Banner") {
         // Construir la ruta a src/main/resources
         val resourcesDir = File(moduleDir, "src/main/resources")
         if (!resourcesDir.exists()) {
-            return Messages.showErrorDialog(project, "Could not find src/main/resources in the module", "Error")
+            return Messages.showErrorDialog(project, "Could not find src/main/resources in the module\n Please, Right-click from 'src' folder of the project or module", "Error")
         }
 
         val dialog = BannerDialog(project)
